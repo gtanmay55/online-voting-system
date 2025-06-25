@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #8aade0;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    background: #5092e7b9;
+    padding: 40px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #5eee63;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.384);
+}
+
+.btn:hover {
+    background: #63e26a;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.alert {
+    color: red;
+    margin: 10px 0;
+}
+
+.delete-btn {
+    color: red;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.danger {
+    background-color: #d9534f;
+}
+
+.danger:hover {
+    background-color: #c9302c;
+}
